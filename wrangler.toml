@@ -1,0 +1,10 @@
+name = "twitchllm"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[limits]
+cpu_ms = 1500
+
+[placement]
+mode = "smart"
+
